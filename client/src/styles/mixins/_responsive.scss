@@ -1,0 +1,24 @@
+@mixin isDesktop {
+  @media (min-width: 855px) {
+    @content;
+  }
+}
+
+@mixin isBigDesktop {
+  @media (min-width: 1519px) {
+    @content;
+  }
+}
+
+
+@mixin isMobile {
+  @media (max-width: 854px) {
+    @content;
+  }
+}
+
+@mixin isSmallMobile {
+  @media (max-width: 390px) {
+    @content;
+  }
+}

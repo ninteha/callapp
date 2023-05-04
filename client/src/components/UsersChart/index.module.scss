@@ -1,0 +1,12 @@
+@import "@colors";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 4px;
+  & > p {
+    font-size: 24px;
+    font-weight: 700;
+    color: $primary-blue-500;
+  }
+}

@@ -1,0 +1,15 @@
+@import "@colors";
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 24px 4px;
+  & > p {
+    color: $primary-blue-500;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
